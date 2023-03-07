@@ -34,25 +34,8 @@ public class Jogo {
         while(numeros.size() < quantidade) {
             int v = numeroAleatorios();
             numeros.add(v);
-//            System.out.print(v);
-//            System.out.print(" - ");
         }
         return numeros;
-    }
-
-    public static void main(String[] args) {
-        Jogo jogo = new Jogo();
-
-        int j = 0;
-        for (int i = 0; i < 9; i++){
-            System.out.println("JOGO "+(i+1)+" \t");
-            jogo.geradorNumeros(6).stream()
-                    .sorted()
-                    .forEach(n -> {
-                        System.out.print(n + " - ");
-                    });
-            System.out.println();
-        }
     }
 
 
