@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="javaOO_algaworks:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/javaOO_algaworks_jar</output-path>
+    <root id="archive" name="javaOO_algaworks.jar">
+      <element id="module-output" name="javaOO_algaworks" />
+    </root>
+  </artifact>
+</component>
